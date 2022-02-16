@@ -1,0 +1,86 @@
+body{
+    background-image: url(./img/background\ logo\ loqui.png);
+    background-size: cover;
+    font-family: 'Droid Sans';
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGIN PAGE */
+
+.login-form{
+    background-color:#FCFCFC;
+    width: 300px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.loqui-icon {
+    width: 90px;
+}
+
+.register{
+    font-size: 0.8rem;
+    color: #77777B;
+}
+
+input {
+    width: 70%;
+    background-color:#9D9DB7;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 8px;
+    color: #FCFCFC;
+}
+
+.enter{
+    width: 73%;
+    background-color: #EBEBEB;
+    color: #77777B;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* REGISTER PAGE */
+
+.loqui-icon-register{
+    width: 80px;
+}
+
+.register-form{
+    background-color:#FCFCFC;
+    width: 300px;
+    height: 424px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.register-button{
+    width: 73%;
+    background-color: #EBEBEB;
+    color: #77777B;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+
+.already-have-account{
+    font-size: 0.8rem;
+    color: #77777B;
+}
