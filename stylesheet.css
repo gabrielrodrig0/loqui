@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-image: url(./img/background\ logo\ loqui.png);
     background-size: cover;
@@ -7,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 /* LOGIN PAGE */
@@ -83,4 +88,70 @@ input {
 .already-have-account{
     font-size: 0.8rem;
     color: #77777B;
+}
+
+/* MAIN PAGE */
+
+.main-page-header{
+    width: 100%;
+    height: 100px;
+    background-color: #F2F5F9;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-loqui-main-page{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.chat-left{
+    background-color:#F2F5F9;
+    width: 300px;
+    height: 485px;
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 10px;
+    color: #77777B;
+    font-size: 20px;
+}
+
+.chat-right{
+    width: 700px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F2F5F9;
+    border-radius: 15px;
+}
+
+.message-main-page{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.chats{
+    margin-top: 10px;
+}
+
+.lupa-pesquisar{
+    background-image: url("./img/lupa-pesquisar.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
 }
