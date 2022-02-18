@@ -9,10 +9,7 @@ body{
     font-family: 'Droid Sans';
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
+   
 }
 
 /* LOGIN PAGE */
@@ -98,11 +95,16 @@ input {
     background-color: #F2F5F9;
     margin-bottom: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .logo-loqui-main-page{
-    width: 50px;
+    width: 70px;
+    height: 70px;
     margin-left: 10px;
+
 }
 
 .chat-left{
@@ -120,40 +122,17 @@ input {
 
 .container{
     display: flex;
-    justify-content: space-between;
     width: 80%;
+    margin-left: 150px;
     margin-bottom: 10px;
     color: #77777B;
     font-size: 20px;
-}
-
-.chat-right{
-    width: 700px;
-    background-color: #F2F5F9;
-    border-radius: 15px;
-}
-
-.header-chat-right{
-    width: 100%;
     display: flex;
-    height: 80px;
-    gap: 10px;
-    background-color: #EBEBEB;
-    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.global-icon{
-    margin-left: 20px;
-    margin-top: 15px;
-    width:50px;
-    height: 50px;
-}
-
-.global{
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: bold;
-}
 
 .lupa-pesquisar{
     width: 20px;
@@ -172,4 +151,68 @@ input {
 .create-room{
     width: 25px;
     height: 25px;
+}
+
+.chat-right{
+    width: 700px;
+    height: 485px;
+    background-color: #F2F5F9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chat-right-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.3rem;
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.global-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.global-title{
+    font-size: 30px;
+}
+
+.chat-right-msg-box{
+    width: 100%;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.chat-right-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    padding: 0.3rem;
+    width: 70%;
+}
+
+.send{
+    width: 35px;
+    height: 35px;
+}
+
+.text{
+    width: 300px;
+    height: 50px;
+}
+
+.attachment{
+    width: 35px;
+    height: 35px;
 }
