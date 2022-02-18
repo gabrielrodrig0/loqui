@@ -98,8 +98,6 @@ input {
     background-color: #F2F5F9;
     margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .logo-loqui-main-page{
@@ -131,27 +129,47 @@ input {
 
 .chat-right{
     width: 700px;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
     background-color: #F2F5F9;
     border-radius: 15px;
 }
 
-.message-main-page{
-    margin-left: 30px;
-    margin-right: 20px;
+.header-chat-right{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    gap: 10px;
+    background-color: #EBEBEB;
+    border-radius: 15px;
 }
 
-.chats{
-    margin-top: 10px;
+.global-icon{
+    margin-left: 20px;
+    margin-top: 15px;
+    width:50px;
+    height: 50px;
+}
+
+.global{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .lupa-pesquisar{
-    background-image: url("./img/lupa-pesquisar.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.title-left{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    gap: 80px;
+}
+
+.create-room{
+    width: 25px;
+    height: 25px;
 }
