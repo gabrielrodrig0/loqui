@@ -48,8 +48,11 @@ body{
 }
 
 .register{
-    font-size: 0.8rem;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 0.6rem;
     color: #77777B;
+    text-decoration: underline;
 }
 
 input {
@@ -106,6 +109,57 @@ input {
     color: #77777B;
 }
 
+/* FORGOT PASSWORD PAGE*/
+
+.insert-email{
+    background-color:#FCFCFC;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.text-forgot-page{
+    font-size: 15px;
+}
+
+.input-email{
+    width:80%;
+    height: 20px;
+}
+
+.btn-forgot-send{
+    width: 80px;
+    margin-top: 5px;
+    border: none;
+    background-color: #9D9DB7;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FCFCFC;
+}
+
+/* NEW PASSWORD*/
+
+.new-password-form{
+    background-color:#FCFCFC;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.redefinition{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
 /* REGISTER PAGE */
 
 .container-register{
@@ -128,7 +182,7 @@ input {
 .register-form{
     background-color:#FCFCFC;
     width: 300px;
-    height: 424px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,6 +192,7 @@ input {
 }
 
 .register-button{
+    margin-top: 10px;
     width: 73%;
     background-color: #EBEBEB;
     color: #77777B;
@@ -148,8 +203,11 @@ input {
 } 
 
 .already-have-account{
-    font-size: 0.8rem;
+    margin-top: 7px;
+    font-weight: bold;
+    font-size: 0.6rem;
     color: #77777B;
+    text-decoration: underline;
 }
 
 /* MAIN PAGE */
@@ -212,8 +270,8 @@ input {
 }
 
 .create-room{
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
 }
 
 .chat-right{
@@ -298,7 +356,7 @@ input {
 .config-form{
     background-color:#FCFCFC;
     width: 350px;
-    height: 300px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,6 +396,8 @@ input {
 }
 
 .btn-config1{
+    width: 80px;
+    margin-top: 5px;
     border: none;
     background-color: #EBEBEB;
     padding: 10px;
